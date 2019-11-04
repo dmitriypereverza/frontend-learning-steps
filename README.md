@@ -18,20 +18,20 @@
 Теперь можно описать шаги обучения подробнее в разрезе месяцов:
 
 1. Первый месяц
-    1. Понимание работы web сервера
-    2. Xml Http Request (XHR) или AJAX запросы
-    3. Базовые знания JS и TS
-    4. Введение в React
-    5. Что такое и зачем нужен SOLID
-    1. Примитивы в React
-    1. SOLID для примитивов в React
-    7. Styled components
+    1. [Понимание работы web сервера](1m/web-server.md)
+    2. [Xml Http Request (XHR) или AJAX запросы](1m/ajax.md)
+    3. Базовые знания [JS](https://learn.javascript.ru/) и [TS](http://typescript-lang.ru/docs/)
+    4. [Введение в React TS](1m/reactBeginner.md)
+    5. [Что такое и зачем нужен SOLID](https://medium.com/webbdev/solid-4ffc018077da)
+    6. Примитивы в React
+    7. SOLID для примитивов в React
+    8. [Styled components](https://www.styled-components.com/)
 2. Второй месяц
-    1. Введение в дженерики в TS
-    1. Работа с Promise и введение в Rx.js
-    2. Выявление примитивов и использование их в компонентах React
-    7. Знакомство с инструментами профилирования React
-    5. Redux и Context Api
+    1. [Введение в дженерики в TS (En)](https://www.typescriptlang.org/docs/handbook/generics.html)
+    2. Работа с [Promise](https://learn.javascript.ru/promise) и введение в [Rx.js](https://habr.com/ru/post/438642/)
+    3. Выявление примитивов и использование их в компонентах React
+    4. Знакомство с инструментами профилирования React
+    5. [Redux](https://medium.com/devschacht/redux-step-by-step-e6c42a9b00cd) и [Context Api](https://reactjs.org/docs/context.html)
 3. Третий месяц
     1. Тестирование
         1. Виды тестирование
@@ -39,12 +39,12 @@
     2. Shadow dom
 4. Четвертый месяц
     1. Refactoring и как не сломать работающее приложение
-    1. Дженерики в TS
+    2. Дженерики в TS
 5. Пятый месяц
     1. Иттераторы TS
-    1. Генераторы TS
-    2. Web sockets
-    3. PWA - Progressive Web Application
+    2. Генераторы TS
+    3. Web sockets
+    4. PWA - Progressive Web Application
 6. Шестой месяц
-    7. Service workers
-    8. Infinity scroll
+    1. Service workers
+    2. Infinity scroll
