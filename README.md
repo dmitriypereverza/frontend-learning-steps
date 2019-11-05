@@ -41,7 +41,7 @@
     1. Refactoring и как не сломать работающее приложение
     2. Дженерики в TS
 5. Пятый месяц
-    1. Иттераторы TS
+    1. Итераторы TS
     2. Генераторы TS
     3. Web sockets
     4. PWA - Progressive Web Application
