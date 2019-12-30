@@ -15,36 +15,81 @@
 
 ![alt text](images/mindmap2.jpeg)
 
+##Полный план обучения:
+
+- Верстка
+- Базовый [JavaScript](https://learn.javascript.ru/)
+- Основы работы с системой контроля версий git
+- [TypeScript](http://typescript-lang.ru/docs/)
+    - Экосистема TypeScript. Система типизации
+    - Опредеделения типов - пишем свои, ищем и используем сторонние.
+    - [Введение в дженерики в TS (En)](https://www.typescriptlang.org/docs/handbook/generics.html)
+    - Дженерики в TS
+    - Итераторы
+    - Генераторы
+- [Понимание работы web сервера](1m/web-server.md)
+- Способы взаимодействия с web сервером
+    - [Xml Http Request (XHR) или AJAX запросы](1m/ajax.md)
+    - Сокетное соединение
+    - Node js. Локальный сервер Express.js
+    - [Promise](https://learn.javascript.ru/promise) и async / await
+- [Что такое и зачем нужен SOLID](https://medium.com/webbdev/solid-4ffc018077da)
+- React TS. Написание первого приложения
+    - [Разворот тестового проекта. Использование create-react-app](1m/reactBeginner.md)
+    - Что такое JSX и Virtual DOM
+    - Написание первых компонентов. Использование типизации.
+    - [Styled components](https://www.styled-components.com/)
+    - Разбираем React Hooks, их отличия от стейта и lifecycle методов.
+    - SOLID для примитивов. Введение
+- Routing в React - Оптимизация приложения
+- Знакомство с инструментами профилирования React приложений
+- Тестирование
+    - Виды тестирование. Инструменты тестирования
+    - Разберем примеры тестирования компонент с помощью Jest и Enzyme.
+- [Redux](https://medium.com/devschacht/redux-step-by-step-e6c42a9b00cd) и [Context Api](https://reactjs.org/docs/context.html)
+    - Знакомство с менеджером контекста Redux
+    - Выполнение асинхронных действий с redux-thunk
+    - Введение в redux-saga и redux-observable. Введение в [Rx.js](https://habr.com/ru/post/438642/)
+    - Встроенные методы работы с контекстом. Context api
+    - Разбор работы с кастомным state manager'ом на основе Context api
+
+
 Теперь можно описать шаги обучения подробнее в разрезе месяцов:
 
-1. Первый месяц
-    1. [Понимание работы web сервера](1m/web-server.md)
-    2. [Xml Http Request (XHR) или AJAX запросы](1m/ajax.md)
-    3. Базовые знания [JS](https://learn.javascript.ru/) и [TS](http://typescript-lang.ru/docs/)
-    4. [Введение в React TS](1m/reactBeginner.md)
-    5. [Что такое и зачем нужен SOLID](https://medium.com/webbdev/solid-4ffc018077da)
-    6. Примитивы в React
-    7. SOLID для примитивов в React
-    8. [Styled components](https://www.styled-components.com/)
-2. Второй месяц
-    1. [Введение в дженерики в TS (En)](https://www.typescriptlang.org/docs/handbook/generics.html)
-    2. Работа с [Promise](https://learn.javascript.ru/promise) и введение в [Rx.js](https://habr.com/ru/post/438642/)
-    3. Выявление примитивов и использование их в компонентах React
-    4. Знакомство с инструментами профилирования React
-    5. [Redux](https://medium.com/devschacht/redux-step-by-step-e6c42a9b00cd) и [Context Api](https://reactjs.org/docs/context.html)
-3. Третий месяц
-    1. Тестирование
-        1. Виды тестирование
-        2. Инструменты тестирования
-    2. Shadow dom
-4. Четвертый месяц
-    1. Refactoring и как не сломать работающее приложение
-    2. Дженерики в TS
-5. Пятый месяц
-    1. Итераторы TS
-    2. Генераторы TS
-    3. Web sockets
-    4. PWA - Progressive Web Application
-6. Шестой месяц
-    1. Service workers
-    2. Infinity scroll
+
+
+- Верстка
+- Базовый [JavaScript](https://learn.javascript.ru/)
+- Основы работы с системой контроля версий git
+- [TypeScript](http://typescript-lang.ru/docs/)
+    - Экосистема TypeScript. Система типизации
+    - Опредеделения типов - пишем свои, ищем и используем сторонние.
+    - [Введение в дженерики в TS (En)](https://www.typescriptlang.org/docs/handbook/generics.html)
+    - Дженерики в TS
+    - Итераторы
+    - Генераторы
+- [Понимание работы web сервера](1m/web-server.md)
+- Способы взаимодействия с web сервером
+    - [Xml Http Request (XHR) или AJAX запросы](1m/ajax.md)
+    - Сокетное соединение
+    - Node js. Локальный сервер Express.js
+    - [Promise](https://learn.javascript.ru/promise) и async / await
+- [Что такое и зачем нужен SOLID](https://medium.com/webbdev/solid-4ffc018077da)
+- React TS. Написание первого приложения
+    - [Разворот тестового проекта. Использование create-react-app](1m/reactBeginner.md)
+    - Что такое JSX и Virtual DOM
+    - Написание первых компонентов. Использование типизации.
+    - [Styled components](https://www.styled-components.com/)
+    - Разбираем React Hooks, их отличия от стейта и lifecycle методов.
+    - SOLID для примитивов. Введение
+- Routing в React - Оптимизация приложения
+- Знакомство с инструментами профилирования React приложений
+- Тестирование
+    - Виды тестирование. Инструменты тестирования
+    - Разберем примеры тестирования компонент с помощью Jest и Enzyme.
+- [Redux](https://medium.com/devschacht/redux-step-by-step-e6c42a9b00cd) и [Context Api](https://reactjs.org/docs/context.html)
+    - Знакомство с менеджером контекста Redux
+    - Выполнение асинхронных действий с redux-thunk
+    - Введение в redux-saga и redux-observable. Введение в [Rx.js](https://habr.com/ru/post/438642/)
+    - Встроенные методы работы с контекстом. Context api
+    - Разбор работы с кастомным state manager'ом на основе Context api
