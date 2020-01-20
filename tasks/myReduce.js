@@ -1,6 +1,11 @@
-Array.prototype.myReduce = function (cb, initialVal) {
-
+Array.prototype.myReduce = function(fn, arg) {
+    let acc = arg
+    this.forEach(item => {
+        acc = fn(acc, item)
+    })
+    return acc
 };
+
 
 
 const res = [1, 0, 5, 6].myReduce((acc, item) => {
