@@ -1,17 +1,8 @@
-function sum(number) {
-    if (number === undefined) {
-        return 0
-    }
-    let acc = number
-    const func = (arg) => {
-        if (arg === undefined) {
-            return acc
-        }
-        acc += arg
-        return func
-    }
-
-    return func
+"use strict";
+function sum(arg) {
+    const accumulator = this || 0;
+    if (arg === undefined) return accumulator;
+    return sum.bind(arg + accumulator);
 }
 
 console.log(sum() === 0);

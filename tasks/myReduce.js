@@ -1,9 +1,5 @@
-Array.prototype.myReduce = function(fn, arg) {
-    let acc = arg
-    this.forEach(item => {
-        acc = fn(acc, item)
-    })
-    return acc
+Array.prototype.myReduce = function() {
+
 };
 
 
